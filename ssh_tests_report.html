@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">ssh_tests_report.html</title>
+      <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">ssh_tests_report.html</h1>
+    <p>Report generated on 14-May-2025 at 20:05:26 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">88 tests took 00:02:51.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">24 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">64 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.3&#34;, &#34;Platform&#34;: &#34;macOS-14.7.5-x86_64-i386-64bit-Mach-O&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.3.5&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;json-report&#34;: &#34;1.5.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}}, &#34;tests&#34;: {&#34;tests/test_ssh_suite.py::test_ssh&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nSSH status: active\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_service_running&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_service_running&#34;, &#34;duration&#34;: &#34;908 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_service_running&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;908 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: active\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_port_open&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_port_open&#34;, &#34;duration&#34;: &#34;955 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_port_open&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;955 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: tcp   LISTEN 0      4096                    *:22              *:*\n&#34;}], &#34;tests/test_ssh_suite.py::test_sshd_config_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_sshd_config_exists&#34;, &#34;duration&#34;: &#34;949 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_sshd_config_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;949 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: exists\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_protocol_version&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_protocol_version&#34;, &#34;duration&#34;: &#34;955 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_protocol_version&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;955 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_ssh_protocol_version():\n        &amp;quot;&amp;quot;&amp;quot;Ensure SSH uses Protocol 2&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep &amp;#x27;^Protocol&amp;#x27; /etc/ssh/sshd_config&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;Protocol 2&amp;#x27; in out, &amp;#x27;SSH is not using Protocol 2&amp;#x27;\nE       AssertionError: SSH is not using Protocol 2\nE       assert &amp;#x27;Protocol 2&amp;#x27; in &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:105: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_root_login_disabled&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_root_login_disabled&#34;, &#34;duration&#34;: &#34;899 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_root_login_disabled&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;899 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.ssh\n    def test_ssh_root_login_disabled():\n        &amp;quot;&amp;quot;&amp;quot;Ensure SSH root login is disabled&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep &amp;#x27;^PermitRootLogin&amp;#x27; /etc/ssh/sshd_config&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;no&amp;#x27; in out, &amp;#x27;Root login is enabled in SSH&amp;#x27;\nE       AssertionError: Root login is enabled in SSH\nE       assert &amp;#x27;no&amp;#x27; in &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:43: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_password_auth_disabled&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_password_auth_disabled&#34;, &#34;duration&#34;: &#34;943 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_password_auth_disabled&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;943 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_password_auth_disabled():\n        &amp;quot;&amp;quot;&amp;quot;Ensure password authentication is disabled&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep &amp;#x27;^PasswordAuthentication&amp;#x27; /etc/ssh/sshd_config&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;no&amp;#x27; in out, &amp;#x27;Password authentication is enabled&amp;#x27;\nE       AssertionError: Password authentication is enabled\nE       assert &amp;#x27;no&amp;#x27; in &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:89: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_auth_log_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_auth_log_exists&#34;, &#34;duration&#34;: &#34;958 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_auth_log_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;958 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: exists\n&#34;}], &#34;tests/test_ssh_suite.py::test_failed_login_attempts&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_failed_login_attempts&#34;, &#34;duration&#34;: &#34;953 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_failed_login_attempts&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;953 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_last_login_logged&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_last_login_logged&#34;, &#34;duration&#34;: &#34;951 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_last_login_logged&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;951 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: ubuntu   pts/0        73.70.241.207    Mon May 12 18:20   still logged in\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_banner_configured&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_banner_configured&#34;, &#34;duration&#34;: &#34;943 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_banner_configured&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;943 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.ssh\n    def test_ssh_banner_configured():\n        &amp;quot;&amp;quot;&amp;quot;Ensure SSH banner is configured&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep &amp;#x27;^Banner&amp;#x27; /etc/ssh/sshd_config&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;Banner&amp;#x27; in out and out.strip().split()[-1] != &amp;#x27;none&amp;#x27;, &amp;#x27;No SSH login banner configured&amp;#x27;\nE       AssertionError: No SSH login banner configured\nE       assert (&amp;#x27;Banner&amp;#x27; in &amp;#x27;&amp;#x27;)\n\ntests/test_ssh_suite.py:78: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_root_login_disabled&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_root_login_disabled&#34;, &#34;duration&#34;: &#34;960 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_root_login_disabled&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;960 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_root_login_disabled():\n        &amp;quot;&amp;quot;&amp;quot;Ensure SSH root login is disabled&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep &amp;#x27;^PermitRootLogin&amp;#x27; /etc/ssh/sshd_config&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;no&amp;#x27; in out, &amp;#x27;Root login is enabled&amp;#x27;\nE       AssertionError: Root login is enabled\nE       assert &amp;#x27;no&amp;#x27; in &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:97: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_selinux_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_selinux_status&#34;, &#34;duration&#34;: &#34;957 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_selinux_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;957 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: Disabled\n&#34;}], &#34;tests/test_ssh_suite.py::test_firewall_active&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_firewall_active&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_firewall_active&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_firewall_active():\n        &amp;quot;&amp;quot;&amp;quot;Check if UFW or iptables firewall is active&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;ufw status 2&amp;gt;/dev/null || iptables -L&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;active&amp;#x27; in out or &amp;#x27;Chain&amp;#x27; in out\nE       AssertionError: assert (&amp;#x27;active&amp;#x27; in &amp;#x27;&amp;#x27; or &amp;#x27;Chain&amp;#x27; in &amp;#x27;&amp;#x27;)\n\ntests/test_ssh_suite.py:121: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_shadow_file_protected&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_shadow_file_protected&#34;, &#34;duration&#34;: &#34;952 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_shadow_file_protected&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;952 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 640\n&#34;}], &#34;tests/test_ssh_suite.py::test_fail2ban_running&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_fail2ban_running&#34;, &#34;duration&#34;: &#34;962 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_fail2ban_running&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;962 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_fail2ban_running():\n        &amp;quot;&amp;quot;&amp;quot;Ensure fail2ban is active&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;systemctl is-active fail2ban&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert out == &amp;#x27;active&amp;#x27;\nE       AssertionError: assert &amp;#x27;inactive&amp;#x27; == &amp;#x27;active&amp;#x27;\nE         \nE         - active\nE         + inactive\nE         ? ++\n\ntests/test_ssh_suite.py:137: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: inactive\n&#34;}], &#34;tests/test_ssh_suite.py::test_sysctl_hardening&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_sysctl_hardening&#34;, &#34;duration&#34;: &#34;947 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_sysctl_hardening&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;947 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: net.ipv4.ip_forward = 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_banner_set&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_banner_set&#34;, &#34;duration&#34;: &#34;959 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_banner_set&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;959 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_ssh_banner_set():\n        &amp;quot;&amp;quot;&amp;quot;Ensure SSH login banner is configured&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep &amp;#x27;^Banner&amp;#x27; /etc/ssh/sshd_config&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;Banner&amp;#x27; in out and &amp;#x27;none&amp;#x27; not in out.lower()\nE       AssertionError: assert (&amp;#x27;Banner&amp;#x27; in &amp;#x27;&amp;#x27;)\n\ntests/test_ssh_suite.py:153: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_no_world_writable_files&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_no_world_writable_files&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_no_world_writable_files&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.security\n    def test_no_world_writable_files():\n        &amp;quot;&amp;quot;&amp;quot;Detect world-writable files&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;find / -type f -perm -0002 2&amp;gt;/dev/null | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;lt; 10\nE       AssertionError: assert 3042 &amp;lt; 10\nE        +  where 3042 = int(&amp;#x27;3042&amp;#x27;)\n\ntests/test_ssh_suite.py:161: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 3042\n&#34;}], &#34;tests/test_ssh_suite.py::test_syslog_running&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_syslog_running&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_syslog_running&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: active\n&#34;}], &#34;tests/test_ssh_suite.py::test_logrotate_cron&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_logrotate_cron&#34;, &#34;duration&#34;: &#34;928 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_logrotate_cron&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;928 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: exists\n&#34;}], &#34;tests/test_ssh_suite.py::test_logrotate_config_valid&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_logrotate_config_valid&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_logrotate_config_valid&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.logs\n    def test_logrotate_config_valid():\n        &amp;quot;&amp;quot;&amp;quot;Validate logrotate config&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;logrotate --debug /etc/logrotate.conf | grep rotating&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;rotating&amp;#x27; in out\nE       AssertionError: assert &amp;#x27;rotating&amp;#x27; in &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:193: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_apache_log_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_apache_log_exists&#34;, &#34;duration&#34;: &#34;895 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_apache_log_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;895 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: exists\n&#34;}], &#34;tests/test_ssh_suite.py::test_recent_log_updates&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_recent_log_updates&#34;, &#34;duration&#34;: &#34;921 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_recent_log_updates&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;921 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 22\n&#34;}], &#34;tests/test_ssh_suite.py::test_log_permissions&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_log_permissions&#34;, &#34;duration&#34;: &#34;943 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_log_permissions&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;943 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.logs\n    def test_log_permissions():\n        &amp;quot;&amp;quot;&amp;quot;Ensure /var/log is protected&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;stat -c %a /var/log&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert out in [&amp;#x27;750&amp;#x27;, &amp;#x27;755&amp;#x27;]\nE       AssertionError: assert &amp;#x27;775&amp;#x27; in [&amp;#x27;750&amp;#x27;, &amp;#x27;755&amp;#x27;]\n\ntests/test_ssh_suite.py:217: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 775\n&#34;}], &#34;tests/test_ssh_suite.py::test_empty_log_files&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_empty_log_files&#34;, &#34;duration&#34;: &#34;923 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_empty_log_files&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;923 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.logs\n    def test_empty_log_files():\n        &amp;quot;&amp;quot;&amp;quot;Detect empty log files&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;find /var/log -type f -size 0 | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;lt; 5\nE       AssertionError: assert 7 &amp;lt; 5\nE        +  where 7 = int(&amp;#x27;7&amp;#x27;)\n\ntests/test_ssh_suite.py:225: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 7\n&#34;}], &#34;tests/test_ssh_suite.py::test_log_archiving&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_log_archiving&#34;, &#34;duration&#34;: &#34;958 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_log_archiving&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;958 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 11\n&#34;}], &#34;tests/test_ssh_suite.py::test_syslog_config_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_syslog_config_exists&#34;, &#34;duration&#34;: &#34;913 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_syslog_config_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;913 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: exists\n&#34;}], &#34;tests/test_ssh_suite.py::test_shadow_entries_count&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_shadow_entries_count&#34;, &#34;duration&#34;: &#34;958 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_shadow_entries_count&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;958 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.depth\n    def test_shadow_entries_count():\n        &amp;quot;&amp;quot;&amp;quot;Check number of shadow entries&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;cat /etc/shadow | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;gt; 0\nE       AssertionError: assert 0 &amp;gt; 0\nE        +  where 0 = int(&amp;#x27;0&amp;#x27;)\n\ntests/test_ssh_suite.py:249: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_sudoers_file_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_sudoers_file_exists&#34;, &#34;duration&#34;: &#34;939 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_sudoers_file_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;939 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: exists\n&#34;}], &#34;tests/test_ssh_suite.py::test_sudoers_permissions&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_sudoers_permissions&#34;, &#34;duration&#34;: &#34;961 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_sudoers_permissions&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;961 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 440\n&#34;}], &#34;tests/test_ssh_suite.py::test_hidden_files_in_root&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_hidden_files_in_root&#34;, &#34;duration&#34;: &#34;943 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_hidden_files_in_root&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;943 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.depth\n    def test_hidden_files_in_root():\n        &amp;quot;&amp;quot;&amp;quot;Check for hidden files in /root&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;ls -A /root | grep &amp;#x27;^\\.&amp;#x27; | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;gt;= 1\nE       AssertionError: assert 0 &amp;gt;= 1\nE        +  where 0 = int(&amp;#x27;0&amp;#x27;)\n\ntests/test_ssh_suite.py:273: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_running_cron_jobs&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_running_cron_jobs&#34;, &#34;duration&#34;: &#34;904 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_running_cron_jobs&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;904 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 10\n&#34;}], &#34;tests/test_ssh_suite.py::test_etc_hosts_file&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_etc_hosts_file&#34;, &#34;duration&#34;: &#34;963 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_etc_hosts_file&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;963 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 9\n&#34;}], &#34;tests/test_ssh_suite.py::test_home_dir_access&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_home_dir_access&#34;, &#34;duration&#34;: &#34;971 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_home_dir_access&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;971 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_backup_files_present&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_backup_files_present&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_backup_files_present&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 4\n&#34;}], &#34;tests/test_ssh_suite.py::test_user_bin_permissions&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_user_bin_permissions&#34;, &#34;duration&#34;: &#34;951 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_user_bin_permissions&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;951 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 755\n&#34;}], &#34;tests/test_ssh_suite.py::test_temp_files_cleanup&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_temp_files_cleanup&#34;, &#34;duration&#34;: &#34;970 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_temp_files_cleanup&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;970 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_telnet_installed&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_telnet_installed&#34;, &#34;duration&#34;: &#34;927 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_telnet_installed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;927 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: /usr/bin/telnet\n&#34;}], &#34;tests/test_ssh_suite.py::test_telnet_port_closed&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_telnet_port_closed&#34;, &#34;duration&#34;: &#34;933 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_telnet_port_closed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;933 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_nmap_scan_for_port_22&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_nmap_scan_for_port_22&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_nmap_scan_for_port_22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 22/tcp open  ssh\n&#34;}], &#34;tests/test_ssh_suite.py::test_nmap_scan_common_ports&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_nmap_scan_common_ports&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_nmap_scan_common_ports&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 3\n&#34;}], &#34;tests/test_ssh_suite.py::test_ping_enabled&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ping_enabled&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ping_enabled&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 1 packets transmitted, 1 received, 0% packet loss, time 0ms\n&#34;}], &#34;tests/test_ssh_suite.py::test_reverse_dns_lookup&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_reverse_dns_lookup&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_reverse_dns_lookup&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 1.0.0.127.in-addr.arpa domain name pointer localhost.\n&#34;}], &#34;tests/test_ssh_suite.py::test_traceroute_installed&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_traceroute_installed&#34;, &#34;duration&#34;: &#34;913 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_traceroute_installed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;913 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.penetration\n    def test_traceroute_installed():\n        &amp;quot;&amp;quot;&amp;quot;Check if traceroute is installed&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;which traceroute&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert out != &amp;#x27;&amp;#x27;, &amp;#x27;traceroute not installed&amp;#x27;\nE       AssertionError: traceroute not installed\nE       assert &amp;#x27;&amp;#x27; != &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:380: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_tcpdump_installed&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_tcpdump_installed&#34;, &#34;duration&#34;: &#34;900 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_tcpdump_installed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;900 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: /usr/bin/tcpdump\n&#34;}], &#34;tests/test_ssh_suite.py::test_netcat_installed&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_netcat_installed&#34;, &#34;duration&#34;: &#34;944 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_netcat_installed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;944 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: /usr/bin/nc\n&#34;}], &#34;tests/test_ssh_suite.py::test_whois_lookup&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_whois_lookup&#34;, &#34;duration&#34;: &#34;966 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_whois_lookup&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;966 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.penetration\n    def test_whois_lookup():\n        &amp;quot;&amp;quot;&amp;quot;Check whois utility is available&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;which whois&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert out != &amp;#x27;&amp;#x27;, &amp;#x27;whois not installed&amp;#x27;\nE       AssertionError: whois not installed\nE       assert &amp;#x27;&amp;#x27; != &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:404: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_system_uptime&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_system_uptime&#34;, &#34;duration&#34;: &#34;950 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_system_uptime&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;950 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: up 4 days, 9 hours, 9 minutes\n&#34;}], &#34;tests/test_ssh_suite.py::test_disk_root_usage&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_disk_root_usage&#34;, &#34;duration&#34;: &#34;900 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_disk_root_usage&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;900 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 63\n&#34;}], &#34;tests/test_ssh_suite.py::test_swap_usage&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_swap_usage&#34;, &#34;duration&#34;: &#34;923 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_swap_usage&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;923 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_logged_in_users&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_logged_in_users&#34;, &#34;duration&#34;: &#34;954 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_logged_in_users&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;954 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 1\n&#34;}], &#34;tests/test_ssh_suite.py::test_cpu_model_info&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_cpu_model_info&#34;, &#34;duration&#34;: &#34;944 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_cpu_model_info&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;944 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: model name\t: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz\n&#34;}], &#34;tests/test_ssh_suite.py::test_active_users&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_active_users&#34;, &#34;duration&#34;: &#34;933 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_active_users&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;933 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: ubuntu   pts/0        2025-05-12 18:20 (73.70.241.207)\n&#34;}], &#34;tests/test_ssh_suite.py::test_env_variables&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_env_variables&#34;, &#34;duration&#34;: &#34;951 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_env_variables&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;951 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 16\n&#34;}], &#34;tests/test_ssh_suite.py::test_current_user&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_current_user&#34;, &#34;duration&#34;: &#34;914 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_current_user&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;914 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: ubuntu\n&#34;}], &#34;tests/test_ssh_suite.py::test_kernel_version&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_kernel_version&#34;, &#34;duration&#34;: &#34;909 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_kernel_version&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;909 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 6.8.0-1028-aws\n&#34;}], &#34;tests/test_ssh_suite.py::test_os_release_file&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_os_release_file&#34;, &#34;duration&#34;: &#34;935 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_os_release_file&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;935 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: PRETTY_NAME=&amp;quot;Ubuntu 24.04.2 LTS&amp;quot;\n&#34;}], &#34;tests/test_ssh_suite.py::test_apache_service_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_apache_service_status&#34;, &#34;duration&#34;: &#34;974 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_apache_service_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;974 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: active\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_service_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_service_status&#34;, &#34;duration&#34;: &#34;943 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_service_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;943 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: active\n&#34;}], &#34;tests/test_ssh_suite.py::test_docker_service_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_docker_service_status&#34;, &#34;duration&#34;: &#34;908 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_docker_service_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;908 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.status\n    def test_docker_service_status():\n        &amp;quot;&amp;quot;&amp;quot;Check Docker service status (if exists)&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;systemctl is-active docker 2&amp;gt;/dev/null || echo not_installed&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert out in [&amp;#x27;active&amp;#x27;, &amp;#x27;inactive&amp;#x27;, &amp;#x27;not_installed&amp;#x27;]\nE       AssertionError: assert &amp;#x27;inactive\\nnot_installed&amp;#x27; in [&amp;#x27;active&amp;#x27;, &amp;#x27;inactive&amp;#x27;, &amp;#x27;not_installed&amp;#x27;]\n\ntests/test_ssh_suite.py:508: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: inactive\nnot_installed\n&#34;}], &#34;tests/test_ssh_suite.py::test_network_interfaces&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_network_interfaces&#34;, &#34;duration&#34;: &#34;960 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_network_interfaces&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;960 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 1\n&#34;}], &#34;tests/test_ssh_suite.py::test_firewalld_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_firewalld_status&#34;, &#34;duration&#34;: &#34;952 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_firewalld_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;952 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.status\n    def test_firewalld_status():\n        &amp;quot;&amp;quot;&amp;quot;Check firewalld status&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;systemctl is-active firewalld 2&amp;gt;/dev/null || echo not_installed&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert out in [&amp;#x27;active&amp;#x27;, &amp;#x27;inactive&amp;#x27;, &amp;#x27;not_installed&amp;#x27;]\nE       AssertionError: assert &amp;#x27;inactive\\nnot_installed&amp;#x27; in [&amp;#x27;active&amp;#x27;, &amp;#x27;inactive&amp;#x27;, &amp;#x27;not_installed&amp;#x27;]\n\ntests/test_ssh_suite.py:524: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: inactive\nnot_installed\n&#34;}], &#34;tests/test_ssh_suite.py::test_mount_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_mount_status&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_mount_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 33\n&#34;}], &#34;tests/test_ssh_suite.py::test_sysctl_settings&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_sysctl_settings&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_sysctl_settings&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 1052\n&#34;}], &#34;tests/test_ssh_suite.py::test_journal_logs&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_journal_logs&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_journal_logs&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 25586\n&#34;}], &#34;tests/test_ssh_suite.py::test_service_count&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_service_count&#34;, &#34;duration&#34;: &#34;977 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_service_count&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;977 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 31\n&#34;}], &#34;tests/test_ssh_suite.py::test_cron_daemon_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_cron_daemon_status&#34;, &#34;duration&#34;: &#34;937 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_cron_daemon_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;937 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: active\n&#34;}], &#34;tests/test_ssh_suite.py::test_cpu_load&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_cpu_load&#34;, &#34;duration&#34;: &#34;947 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_cpu_load&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;947 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0.21\n&#34;}], &#34;tests/test_ssh_suite.py::test_memory_usage&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_memory_usage&#34;, &#34;duration&#34;: &#34;949 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_memory_usage&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;949 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 71076\n&#34;}], &#34;tests/test_ssh_suite.py::test_disk_io_stats&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_disk_io_stats&#34;, &#34;duration&#34;: &#34;954 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_disk_io_stats&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;954 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 17\n&#34;}], &#34;tests/test_ssh_suite.py::test_number_of_processes&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_number_of_processes&#34;, &#34;duration&#34;: &#34;915 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_number_of_processes&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;915 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 114\n&#34;}], &#34;tests/test_ssh_suite.py::test_top_cpu_process&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_top_cpu_process&#34;, &#34;duration&#34;: &#34;949 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_top_cpu_process&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;949 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 322548 java             0.6\n&#34;}], &#34;tests/test_ssh_suite.py::test_top_mem_process&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_top_mem_process&#34;, &#34;duration&#34;: &#34;928 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_top_mem_process&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;928 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 322548 java            55.4\n&#34;}], &#34;tests/test_ssh_suite.py::test_io_wait_low&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_io_wait_low&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_io_wait_low&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_cpu_idle_high&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_cpu_idle_high&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_cpu_idle_high&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 97\n&#34;}], &#34;tests/test_ssh_suite.py::test_uptime_high&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_uptime_high&#34;, &#34;duration&#34;: &#34;957 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_uptime_high&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;957 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 105\n&#34;}], &#34;tests/test_ssh_suite.py::test_filesystem_inodes_usage&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_filesystem_inodes_usage&#34;, &#34;duration&#34;: &#34;911 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_filesystem_inodes_usage&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;911 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 19\n&#34;}], &#34;tests/test_ssh_suite.py::test_chkrootkit_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_chkrootkit_status&#34;, &#34;duration&#34;: &#34;897 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_chkrootkit_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;897 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_lynis_hardening_index&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_lynis_hardening_index&#34;, &#34;duration&#34;: &#34;00:00:46&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_lynis_hardening_index&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:46&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.vulnerability\n    def test_lynis_hardening_index():\n        &amp;quot;&amp;quot;&amp;quot;Check Lynis hardening index&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;lynis audit system --quiet | grep &amp;#x27;Hardening index&amp;#x27;&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;Hardening index&amp;#x27; in out\nE       AssertionError: assert &amp;#x27;Hardening index&amp;#x27; in &amp;#x27;&amp;#x27;\n\ntests/test_ssh_suite.py:660: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_auditd_rules_present&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_auditd_rules_present&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_auditd_rules_present&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.vulnerability\n    def test_auditd_rules_present():\n        &amp;quot;&amp;quot;&amp;quot;Check auditd rules exist&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;auditctl -l | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;gt; 0\nE       AssertionError: assert 0 &amp;gt; 0\nE        +  where 0 = int(&amp;#x27;0&amp;#x27;)\n\ntests/test_ssh_suite.py:668: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_ssh_known_hosts_permissions&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_ssh_known_hosts_permissions&#34;, &#34;duration&#34;: &#34;892 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_ssh_known_hosts_permissions&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;892 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: \n&#34;}], &#34;tests/test_ssh_suite.py::test_world_writable_dirs&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_world_writable_dirs&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_world_writable_dirs&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.vulnerability\n    def test_world_writable_dirs():\n        &amp;quot;&amp;quot;&amp;quot;List world-writable dirs&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;find / -type d -perm -0002 2&amp;gt;/dev/null | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;lt; 15\nE       AssertionError: assert 21 &amp;lt; 15\nE        +  where 21 = int(&amp;#x27;21&amp;#x27;)\n\ntests/test_ssh_suite.py:684: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 21\n&#34;}], &#34;tests/test_ssh_suite.py::test_packages_up_to_date&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_packages_up_to_date&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_packages_up_to_date&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.vulnerability\n    def test_packages_up_to_date():\n        &amp;quot;&amp;quot;&amp;quot;Check for upgradable packages&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;apt list --upgradable 2&amp;gt;/dev/null | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;lt;= 1\nE       AssertionError: assert 45 &amp;lt;= 1\nE        +  where 45 = int(&amp;#x27;45&amp;#x27;)\n\ntests/test_ssh_suite.py:692: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 45\n&#34;}], &#34;tests/test_ssh_suite.py::test_duplicate_uids&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_duplicate_uids&#34;, &#34;duration&#34;: &#34;960 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_duplicate_uids&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;960 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 0\n&#34;}], &#34;tests/test_ssh_suite.py::test_password_expiry_policy&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_password_expiry_policy&#34;, &#34;duration&#34;: &#34;880 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_password_expiry_policy&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;880 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.vulnerability\n    def test_password_expiry_policy():\n        &amp;quot;&amp;quot;&amp;quot;Ensure password expiry is enforced&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;grep PASS_MAX_DAYS /etc/login.defs&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert &amp;#x27;99999&amp;#x27; not in out\nE       AssertionError: assert &amp;#x27;99999&amp;#x27; not in &amp;#x27;#\\tPASS_MAX..._DAYS\\t99999&amp;#x27;\nE         \nE         &amp;#x27;99999&amp;#x27; is contained here:\nE           #\tPASS_MAX_DAYS\tMaximum number of days a password may be used.\nE           PASS_MAX_DAYS\t99999\nE         ?              \t+++++\n\ntests/test_ssh_suite.py:708: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: #\tPASS_MAX_DAYS\tMaximum number of days a password may be used.\nPASS_MAX_DAYS\t99999\n&#34;}], &#34;tests/test_ssh_suite.py::test_kernel_modules_loaded&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_kernel_modules_loaded&#34;, &#34;duration&#34;: &#34;906 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_kernel_modules_loaded&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;906 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nCommand Output: 38\n&#34;}], &#34;tests/test_ssh_suite.py::test_open_ports_less_than_10&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_ssh_suite.py::test_open_ports_less_than_10&#34;, &#34;duration&#34;: &#34;957 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_ssh_suite.py::test_open_ports_less_than_10&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;957 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;@pytest.mark.vulnerability\n    def test_open_ports_less_than_10():\n        &amp;quot;&amp;quot;&amp;quot;Ensure number of open ports is low&amp;quot;&amp;quot;&amp;quot;\n        out, _ = run_remote(&amp;quot;ss -tuln | grep -v &amp;#x27;127.0.0.1&amp;#x27; | wc -l&amp;quot;)\n        print(&amp;quot;Command Output:&amp;quot;, out)\n&amp;gt;       assert int(out) &amp;lt; 10\nE       AssertionError: assert 10 &amp;lt; 10\nE        +  where 10 = int(&amp;#x27;10&amp;#x27;)\n\ntests/test_ssh_suite.py:724: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nCommand Output: 10\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;ssh_tests_report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
