@@ -1,0 +1,6 @@
+device_name: "EC2-A"
+ssh_user: "ubuntu"
+target_ip: "10.0.0.21"
+check_ssh: true
+run_port_scan: true
+expected_open_ports: [22, 443]

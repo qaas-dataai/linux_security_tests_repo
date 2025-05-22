@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: device-configs
+  namespace: default
+data:
+  device_model_a.yaml: |
+    device_name: "EC2-A"
+    ssh_user: "ubuntu"
+    target_ip: "10.0.0.21"
+    check_ssh: true
+    run_port_scan: true
+    expected_open_ports:
+      - 22
+      - 443
+
+  device_model_b.yaml: |
+    device_name: "EC2-B"
+    ssh_user: "testuser"
+    target_ip: "10.0.0.22"
+    check_ssh: true
+    run_port_scan: true
+    expected_open_ports:
+      - 22
+      - 80
